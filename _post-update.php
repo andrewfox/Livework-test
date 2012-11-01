@@ -1,3 +1,5 @@
+<?php
+
 #!/bin/sh
 
 echo
@@ -9,3 +11,5 @@ unset GIT_DIR
 git pull origin master
 
 exec git-update-server-info
+
+?>
